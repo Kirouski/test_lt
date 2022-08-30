@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="First test suite" >
+
+    <test name="web and api tests" >
+        <classes>
+        <class name="tests.GoogleTest"/>
+        <class name="tests.RamblerTest"/>
+        <class name="tests.ReqresTest"/>
+        </classes>
+    </test>
+</suite>
